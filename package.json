@@ -1,0 +1,33 @@
+{
+  "name": "ronin-restake",
+  "version": "0.0.1",
+  "description": "Restake Ronin / AXS",
+  "main": "index.js",
+  "scripts": {
+    "claim": "node -r ts-node/register src/Restake-AXS.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Stake",
+    "Staking",
+    "Ronin",
+    "AXS",
+    "AxieInfinity"
+  ],
+  "author": "chuacw",
+  "license": "ISC",
+  "dependencies": {
+    "@roninnetwork/wallet-sdk": "^1.1.0",
+    "delphirtl": "^1.1.17",
+    "dotenv": "^16.4.5",
+    "ethereumjs-wallet": "^1.0.2",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@typechain/ethers-v5": "^11.1.2",
+    "@types/node": "^22.7.5",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.6.3"
+  }
+}
