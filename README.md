@@ -1,6 +1,7 @@
 ## Ronin Restake
 
 This is a project that restakes rewards on Ronin, without going to the web browser interface to do so.
+It does this by using your private key, the given X_API_KEY and calling the restakeRewards function on the AXS Contract.
 
 Create a file named .env and insert these keys:  
 

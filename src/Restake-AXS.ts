@@ -361,7 +361,7 @@ function getWallet() {
 
 /**
  * Original internalReadEvents
- * 
+ * Reads staked and claimed events from the blockchain
  * 
  * 
  * @param days 
