@@ -17,11 +17,14 @@
   "author": "chuacw",
   "license": "ISC",
   "dependencies": {
-    "@roninnetwork/wallet-sdk": "^1.1.0",
-    "delphirtl": "^1.1.17",
+    "@ethersproject/providers": "^5.7.2",
+    "delphirtl": "^1.1.24",
     "dotenv": "^16.4.5",
     "ethereumjs-wallet": "^1.0.2",
-    "ethers": "^5.7.2"
+    "ethers": "^5.7.2",
+    "web3": "^4.15.0",
+    "web3-ronin-provider": "1.0.14",
+    "winston": "^3.17.0"
   },
   "devDependencies": {
     "@typechain/ethers-v5": "^11.1.2",
@@ -29,5 +32,9 @@
     "ts-node": "^10.9.2",
     "typechain": "^8.3.2",
     "typescript": "^5.6.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/chuacw/ronin-restake/issues"
+  },
+  "homepage": "https://github.com/chuacw/ronin-restake#readme"
 }
